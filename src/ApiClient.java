@@ -12,7 +12,7 @@ public class ApiClient {
         HttpClient client = HttpClient.newHttpClient();
 
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("https://v6.exchangerate-api.com/v6/d308a2f5a9701d9ec4b6d2d2/latest/" + monedaBase.toUpperCase()))
+                .uri(URI.create("https://v6.exchangerate-api.com/v6/"Aqui agrega tu API KEY"/latest/" + monedaBase.toUpperCase()))
                 .build();
 
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
