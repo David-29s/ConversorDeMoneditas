@@ -40,8 +40,8 @@ El programa permite al usuario seleccionar monedas base y destino, ingresar una 
 
 4. Compila y ejecuta el programa:
     ```bash
-    javac ConversorDeMonedas.java
-    java ConversorDeMonedas
+    javac ConversorMonedas.java
+    java ConversorMonedas
     ```
 
 5. Sigue las instrucciones en pantalla para usar el menú y convertir monedas.
